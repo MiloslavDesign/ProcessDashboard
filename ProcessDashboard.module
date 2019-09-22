@@ -45,7 +45,8 @@ class ProcessDashboard extends Process implements Module {
 
     public function execute() {
         // Redirect calls for the admin homepage to the dashboard (first child page)
-        if ($this->page->id == 2) {
+        // if ($this->page->id == 2) {
+        if ($this->page->id == 3) {
             $this->session->redirect($this->page->child->url);
         }
 
