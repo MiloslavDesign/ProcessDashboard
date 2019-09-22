@@ -1,14 +1,14 @@
 <?php
 
 /**
- * Dashboard Module v 1.0.2
+ * Dashboard Module v 1.0.3
  * Batch Editing and Creating of Pages in the ProcessWire Admin Panel
  *
- * @author Peter Burlingham (Pete)
+ * @author Peter Burlingham (Pete) (change by Miloslav)
  * @copyright Peter Burlingham
  * <http://www.notanotherdotcom.com>
  *
- * ProcessWire 2.x
+ * ProcessWire 3.x
  * Copyright (C) 2011 by Ryan Cramer
  * Licensed under GNU/GPL v2, see LICENSE.TXT
  *
@@ -29,10 +29,10 @@ class ProcessDashboard extends Process implements Module {
 
         return array(
             'title' => 'Process Dashboard',
-            'version' => 102,
+            'version' => 103,
             'summary' => 'A custom dashboard page for the ProcessWire admin.',
-            'author' => 'Peter Burlingham',
-            'href' => '',
+            'author' => 'Peter Burlingham, change by Miloslav',
+            'href' => 'https://github.com/MiloslavDesign/ProcessDashboard',
             'singular' => true,
             'autoload' => false,
             'permission' => 'dashboard'
