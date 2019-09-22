@@ -21,3 +21,4 @@ __Updates:__
 * v1.0.0 - first release
 * v1.0.1 - bugfix
 * v1.0.2 - uninstall method added
+* v1.0.3 - updated functon execute() on line 48
